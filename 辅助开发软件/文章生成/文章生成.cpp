@@ -39,7 +39,7 @@ int main()
 			Path_name=Path_name+"/index.html";
 	//		freopen(fn.c_str(),"r",stdin);
 			freopen(Path_name.c_str(),"w",stdout);
-			printf("<html>\n	<body background=\"transparent\">\n			<head>\n				<font size=2>\n				<p align=\"right\">\n					更新日期：2018/03/07\n				</p>\n			</font>\n		</head>\n");
+			printf("<html>\n	<body background=\"transparent\">\n		<head>\n			<font size=2>\n				<p align=\"right\">\n					更新日期：2018/03/07\n				</p>\n			</font>\n		</head>\n");
 
 			printf("		<!-- Code -->\n	</body>\n</html>");
 			return 0;
