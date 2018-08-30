@@ -1,0 +1,23 @@
+			&ensp;&ensp;&ensp;&ensp;
+			<a href="./00006/show.html">
+				<iframe src="./00006/index.pdf" frameborder="0" name="iframe_a" width="40%" height="20%"></iframe>
+				<<查看详情
+			</a>
+		<hr/>
+
+			&ensp;&ensp;&ensp;&ensp;
+			<a href="./00005/show.html">
+				<iframe src="./00005/index.pdf" frameborder="0" name="iframe_a" width="40%" height="20%"></iframe>
+				<<查看详情
+			</a>
+			&ensp;&ensp;&ensp;&ensp;
+			<a href="00002/show.html">
+				<iframe src="00002/index.html" frameborder="0" name="iframe_a" width="40%" height="20%"></iframe>
+				<<查看详情
+			</a>
+		<hr/>
+
+
+
+	sprintf(ls1,"ls %s",nowdir);
+	stdin=popen(ls1,"r");
