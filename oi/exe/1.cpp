@@ -163,7 +163,9 @@ int main()
 	char ls1[1000],ls2[1000];
 	// freopen(".in","r",stdin);
 	// freopen(".out","w",stdout);
+	printf("正在读入源代码文件\n");
 	read();
+	printf("读入完毕\n");
 	// Char ls1;
 	// ls1.a[0]=ls1.a[1]=s.a[0]=s.a[1]=s.a[2]='h';
 	// ls1.a[2]=s.a[3]=0;
@@ -171,7 +173,9 @@ int main()
 	// printf("%d %d",ls1==s,s==ls1);
 	format();
 	freopen("/dev/tty","r",stdin);
+	printf("请输入第一个文件的序号：");
 	scanf("%d",&start);
+	puts("请输入文件名：");
 	while(1)
 	{
 		read(ls1);
